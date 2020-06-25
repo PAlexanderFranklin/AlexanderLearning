@@ -1,6 +1,5 @@
 #ifndef IO_H
 #define IO_H
-int readNumber();
-
-void printToConsole(int x);
+int readInteger();
+double readDouble();
 #endif

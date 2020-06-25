@@ -1,14 +1,15 @@
 #include <iostream>
 
-int readNumber()
-{
+int readInteger() {
 	int x{};
-	std::cout << "Enter a number: ";
+	std::cout << "Enter an integer: ";
 	std::cin >> x;
 	return x;
 }
 
-void printToConsole(int x)
-{
-	std::cout << x << '\n';
+double readDouble() {
+	double x{};
+	std::cout << "Enter a double: ";
+	std::cin >> x;
+	return x;
 }
