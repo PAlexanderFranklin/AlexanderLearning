@@ -1,5 +1,5 @@
 #ifndef BALL_H
 #define BALL_H
-void dropBall(double towerHeight, double duration);
+void dropBall(double towerHeight);
 #endif
 

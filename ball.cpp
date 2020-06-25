@@ -1,11 +1,11 @@
 #include "constants.h"
 #include <iostream>
 
-void dropBall(double ballHeight, double duration) {
+void dropBall(double ballHeight) {
 	double time{};
 	double velocity{};
 	int printTimer{ 1 };
-	while (time < duration + 0.1) {
+	while (true) {
 		if (time > printTimer) {
 			if (ballHeight > 0)
 				std::cout << "after " << printTimer << " seconds, the ball has dropped to "
@@ -13,7 +13,7 @@ void dropBall(double ballHeight, double duration) {
 			else {
 				std::cout << "after " << printTimer << " seconds, the ball is on the ground."
 					<< '\n';
-				printTimer = 50000;
+				break;
 			}
 			++printTimer;
 		}
