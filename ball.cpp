@@ -22,8 +22,8 @@ void dropBall(double ballHeight) {
 				break;
 			++printTimer;
 		}
-		ballHeight -= (velocity * timeStep);
-		velocity += (gravity * timeStep);
-		time += timeStep;
+		ballHeight -= (velocity * alexConst::timeStep);
+		velocity += (alexConst::gravity * alexConst::timeStep);
+		time += alexConst::timeStep;
 	}
 }
