@@ -24,6 +24,7 @@
     <ClCompile Include="io.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="prime.cpp" />
+    <ClCompile Include="string.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ball.h" />
@@ -31,6 +32,7 @@
     <ClInclude Include="constants.h" />
     <ClInclude Include="io.h" />
     <ClInclude Include="prime.h" />
+    <ClInclude Include="string.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

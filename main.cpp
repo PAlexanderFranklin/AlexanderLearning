@@ -1,6 +1,7 @@
 #include "ball.h"
 #include "bits.h"
 #include "io.h"
+#include "string.h"
 #include <iostream>
 
 
@@ -13,8 +14,9 @@ int main() {
     std::cin >> towerHeight;
     dropBall(towerHeight);
     bits();
-    /*int discard{};
-    std::cout << "Enter something to terminate program: ";
-    std::cin >> discard;*/
+    yearsPerLetter();
+    //int discard{};
+    //std::cout << "Enter something to terminate program: ";
+    //std::cin >> discard;
     return 0;
 }
